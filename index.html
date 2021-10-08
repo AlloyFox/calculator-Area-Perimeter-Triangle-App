@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mobile.css" media="(min-height: 320px)">
+    <link rel="stylesheet" href="/css/tablet.css" media="(min-height: 768px)">
+    <link rel="stylesheet" href="/css/desktop.css" media="(min-height: 1024px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Calculator Of Figures Geometric</title>
+</head>
+<body>
+    <main class="container_master">
+
+        <section class="container_app_perimeter">
+            <div class="container_main_perimeter">
+
+                <section class="container_header_perimeter">
+                    <figure class="container_img_app_perimeter">
+                        <img class="image" src="./img/triangle.png" alt="Imagen de un triangulo">
+                    </figure>
+                    <h2 class="title_app_perimeter">Calculate the perimeter of the triangle</h2>
+                    <p class="description_app_perimeter">To obtain the perimeter of a triangle, we must add the 3 sides of the area and we will have as a result the perimeter of ​​the figure</p>
+                </section>
+                    <label class="label_input_perimeter">Enter the measure of side A of your triangle</label>
+                <input class="input_app_perimeter" type="number" id="inputsideA_perimeter">
+                    <label class="label_input_perimeter">Enter the measure of side B of your triangle</label>
+                <input class="input_app_perimeter" type="number" id="inputsideB_perimeter">
+                    <label class="label_input_perimeter">Enter the measure of side C of your triangle</label>
+                <input class="input_app_perimeter" type="number" id="inputsideC_perimeter">
+                <label class="label_input_perimeter">Enter the measure type of your triangle</label>
+                <select class="selector_measure_perimeter" id="selector_perimeter" name="selector">
+                    <option value="Select">Select</option>
+                    <option value="Millimeters">Millimeters</option>
+                    <option value="Centimeters">Centimeters</option>
+                    <option value="Decimeter">Decimeter</option>
+                    <option value="Meters">Meters</option>
+                    <option value="Decameters">Decameters</option>
+                    <option value="Hectometers">Hectometers</option>
+                    <option value="Kilometers">Kilometers</option>
+                </select>
+
+                <button class="button_form_perimeter" type="submit" id="submitOperation_perimeter">Submit</button>
+            </div>
+            <div class="container_results_perimeter">
+                <p class="label_result_perimeter">Result:</p>
+                <p class="result_p_perimeter" id="showResults_perimeter"></p>
+            </div>
+        </section>
+
+<!--START APPLICATION CIRCLE APPLICATION CIRCLE-->
+<!--START APPLICATION CIRCLE APPLICATION CIRCLE-->
+<!--START APPLICATION CIRCLE APPLICATION CIRCLE-->
+<!--START APPLICATION CIRCLE APPLICATION CIRCLE-->
+<!--START APPLICATION CIRCLE APPLICATION CIRCLE-->
+
+        <section class="container_app_area">
+            <div class="container_main_area">
+
+                <section class="container_header_area">
+                    <figure class="container_img_app_area">
+                        <img class="image" src="./img/triangle.png" alt="Imagen de un triangulo">
+                    </figure>
+                    <h2 class="title_app_area">Calculate the area of the triangle</h2>
+                    <p class="description_app_area">To obtain the area of ​​a triangle, the base and the height must be known, the base is multiplied by the height and we will have as a result the area of ​​the figure</p>
+                </section>
+                    <label class="label_input_area">Enter the measure of base of your triangle</label>
+                <input class="input_app_area" type="number" id="inputBase_area">
+                    <label class="label_input_area">Enter the height of your triangle</label>
+                <input class="input_app_area" type="number" id="inputHeight_area">
+                    <label class="label_input_perimeter">Enter the measure type of your triangle</label>
+                <select class="selector_measure_area" id="selector_area" name="selector">
+                    <option value="Select">Select</option>
+                    <option value="Millimeters">Millimeters</option>
+                    <option value="Centimeters">Centimeters</option>
+                    <option value="Decimeter">Decimeter</option>
+                    <option value="Meters">Meters</option>
+                    <option value="Decameters">Decameters</option>
+                    <option value="Hectometers">Hectometers</option>
+                    <option value="Kilometers">Kilometers</option>
+                </select>
+
+                <button class="button_form_area" type="submit" id="submitOperation_area">Submit</button>
+            </div>
+            <div class="container_results_area">
+                <p class="label_result_area">Result:</p>
+                <p class="result_p_area" id="showResults_area"></p>
+            </div>
+        </section>
+
+    </main>  
+
+    
+        <footer class="footer_container">
+            <div class="copyright">
+                <script>
+                    document.write('&copy;' );
+                    document.write(new Date().getFullYear());
+                    document.write(' Projects.federicopuoy.com - All Rights Reserved.');
+                </script>
+            </div>
+            <p class="madeWith">
+                Made with <i class="fas fa-heart"></i> by <a class="link_dev" href="https://federicopuoy.com">Federico Puoy</a>
+            </p>
+        </footer>
+
+
+    
+    <script src="./js/perimeter_triangle.js"></script>
+    <script src="./js/area_triangle.js"></script>
+</body>
+</html>
